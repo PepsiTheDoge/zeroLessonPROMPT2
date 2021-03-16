@@ -1,0 +1,29 @@
+public class DescendingOrder {
+  pode
+    import java.util.ArrayList;
+    int temp = num;
+    ArrayLisublic static int sortDesc(final int num) {
+                //Your ct<Integer> arr = new ArrayList<Integer>();
+    int n = arr.length;
+    do {
+      arr.add(temp % 10);
+      temp /= 10;
+    } while (temp > 0);
+    for (int i = 0; i < n; i++) {
+      for (int j = 0; j < n; j++) {
+        if (arr[j] < arr[i]) {
+          int a = arr[j];
+          arr[j] = arr[i];
+          arr[i] = a;
+        }
+      }
+    }
+    int res = 0;
+    for (int i = 0; i < n; i++) {
+      int a = 10;
+      int b = n - (b + 1);
+      res += arr[i] * Math.pow(a, b);
+    }
+    return res;
+  }
+}
